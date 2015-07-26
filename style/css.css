@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul, li{
+	list-style: none;
+}
+
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+	border-bottom: 1px solid #122642;
+	line-height: 2rem;
+	padding-top: 10px;
+}
+
+li:hover{
+	margin-left: 20px;
+}
+
+body{
+	background: rgb(7, 26, 55);
+	text-align: center;
+	font-family: Microsoft Yahei;
+	color: #fafafa;
+}
+
+.photo{
+	margin: 30px auto;
+}
+
+.photo img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+#photo:hover{
+	cursor: pointer;
+}
+
+h2{
+	font-weight: normal;
+}
+
+.baseinformation, .studyhistory{
+	width: 90%;
+	margin: 50px auto;
+	text-align: left;
+}
+
+.header{
+	font-size: 1.2rem;
+	margin-bottom: 0.8rem;
+}
+
+.icon{
+	margin-right: 20px;
+}
+
+.studyhistory p{
+	display: inline-block;
+}
+
+a:link{color: #fafafa; text-decoration: none;}
+a:visited{color: #fafafa; text-decoration: none;}
+a:hover{color: #fafafa; text-decoration: none;}
+a:active{color: #fafafa; text-decoration: none;}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+	.baseinformation,.studyhistory{
+		width: 45%;
+		margin: 50px auto;
+		text-align: left;
+	}
+}
